@@ -1,53 +1,52 @@
 const cardArray = [
     {
-        name: 'angel',
-        img: 'images/angel.png'
+        name: 'book',
+        img: 'images/book.png'
     },
     {
-        name: 'angry',
-        img: 'images/angry.png'
+        name: 'earth',
+        img: 'images/earth.jpg'
     },
     {
-        name: 'crying',
-        img: 'images/crying.png'
+        name: 'fish',
+        img: 'images/fish.jpg'
     },
     {
-        name: 'heart',
-        img: 'images/heart.png'
+        name: 'jar',
+        img: 'images/jar.jpg'
     },
     {
-        name: 'star-eyes',
-        img: 'images/star-eyes.png'
+        name: 'polaroid',
+        img: 'images/polaroid.jpg'
     },
     {
-        name: 'sunglasses',
-        img: 'images/sunglasses.png'
+        name: 'sun',
+        img: 'images/sun.png'
     },
     {
-        name: 'angel',
-        img: 'images/angel.png'
+        name: 'book',
+        img: 'images/book.png'
     },
     {
-        name: 'angry',
-        img: 'images/angry.png'
+        name: 'earth',
+        img: 'images/earth.jpg'
     },
     {
-        name: 'crying',
-        img: 'images/crying.png'
+        name: 'fish',
+        img: 'images/fish.jpg'
     },
     {
-        name: 'heart',
-        img: 'images/heart.png'
+        name: 'jar',
+        img: 'images/jar.jpg'
     },
     {
-        name: 'star-eyes',
-        img: 'images/star-eyes.png'
+        name: 'polaroid',
+        img: 'images/polaroid.jpg'
     },
     {
-        name: 'sunglasses',
-        img: 'images/sunglasses.png'
-    }
-        
+        name: 'sun',
+        img: 'images/sun.png'
+    }, 
 ]
 
 cardArray.sort(()=> 0.5 - Math.random())
