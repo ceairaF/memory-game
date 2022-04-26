@@ -74,9 +74,11 @@ function checkMatch(){
    const cards = document.querySelectorAll('img')
     const optionOneId=cardsChosenIds[0]
     const optionTwoId= cardsChosenIds[1]
-    console.log(cards)
+    //console.log(cards)
     console.log('check for match!')
     if(optionOneId==optionTwoId){
+        cardsChosen[0]=[]
+        cardsChosen[1]=[]
         cards[optionOneId].setAttribute('src','images/pink.png')
         cards[optionTwoId].setAttribute('src','images/pink.png')
         alert('You have clicked the same image!')
