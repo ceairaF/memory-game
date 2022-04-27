@@ -1,12 +1,16 @@
 #grid {
-    width:300px;
+    width:400px;
     height:400px;
     display:flex;
     flex-flow:wrap;
     align-items: center;
     justify-content: center;
-    padding: 50px;
-    padding-right: 200px;
+    grid-gap: 1px;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 
 body{
@@ -22,7 +26,7 @@ body{
 }
 
 h3{
-    position: relative; 
-	top: 275px;
-	left: 122px;
+    position: absolute;
+    right: 13em;
+    top: 22.5em;
 }
